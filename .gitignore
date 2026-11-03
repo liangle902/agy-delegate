@@ -1,0 +1,19 @@
+# 测试运行时生成的东西
+skill/tests/home/
+skill/tests/work*/
+skill/tests/custom_runs/
+skill/tests/pids_*.txt
+skill/tests/notified*.txt
+__pycache__/
+*.pyc
+
+# deploy.py 的本地备份
+history/
+
+# 本地维护笔记，不进仓库
+AGENTS.md
+CLAUDE.md
+docs/
+
+# 运行器的目录锁
+agy-run-locks/
